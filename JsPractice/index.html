@@ -1,0 +1,60 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type = "text/javascript">
+        function sayHello() {
+        //    document.write ("Hello there!");
+    document.getElementById("demo").innerHTML=Date(); 
+    var str1 = new String( "This is string one" );
+         var str2 = new String( "This is string two" );
+         var str3 = str1.concat( str2 );      
+         document.write("Concatenated String :" + str3)   
+    }
+     </script>
+</head>
+<body>
+    <p>Click the following button to call the function</p>      
+      <form>
+         <input type = "button" onclick = "sayHello()" value = "clickToViewDate">
+         <p id="demo"></p>
+      </form>      
+   </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>  
+        function validateform(){  
+        var name=document.myform.name.value;  
+        var password=document.myform.password.value;  
+          
+        if (name==null || name==""){  
+          alert("Name can't be blank");  
+          return false;  
+        }else if(password.length<6){  
+          alert("Password must be at least 6 characters long.");  
+          return false;  
+          }  
+        }  
+        </script>  
+       
+</head>
+<body>  
+    <form name="myform" method="post" onsubmit="return validateform()" >  
+    Name: <input type="text" name="name"><br/>  
+    Password: <input type="password" name="password"><br/>  
+    <input type="submit" value="register">  
+    </form>  
+    </body>
+    </html>
+
+
+
