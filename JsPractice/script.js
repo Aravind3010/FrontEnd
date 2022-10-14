@@ -149,14 +149,7 @@
 // console.log(number);
 // console.log(number.splice(4,2));
 // console.log(number);
-// let a=[]
-// a[0]=1;
-// a[99]=100;
-// for(let b of a){
-//     console.log(b);
-// }
-// for(let b in a){
-//     console.log(b);
+
 
 // }
 // let words="My name is Aravind N".split(' ');
