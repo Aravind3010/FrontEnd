@@ -190,3 +190,7 @@
 function click(){
     document.getElementById("click").innerHTML=Date();
 }
+
+a=5;
+b=6;
+
